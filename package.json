@@ -1,5 +1,5 @@
 {
-  "name": "covid-19-scraper",
+  "name": "covid-19-rozaje-scraper",
   "version": "1.0.0",
   "description": "Daily scraper for COVID-19 data in Rožaje, saved to Firebase.",
   "main": "index.js",
@@ -15,11 +15,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ilhankalac/covid-19-scraper.git"
+    "url": "git+https://github.com/ilhankalac/covid-19-rozaje-scraper.git"
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ilhankalac/covid-19-scraper/issues"
+    "url": "https://github.com/ilhankalac/covid-19-rozaje-scraper/issues"
   },
-  "homepage": "https://github.com/ilhankalac/covid-19-scraper#readme"
+  "homepage": "https://github.com/ilhankalac/covid-19-rozaje-scraper#readme"
 }

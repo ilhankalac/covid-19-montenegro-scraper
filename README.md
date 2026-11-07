@@ -1,4 +1,4 @@
-# covid-19-scraper
+# covid-19-rozaje-scraper
 
 Daily scraper for COVID-19 data in Rožaje, Montenegro. It finds the latest report on [ijzcg.me](https://www.ijzcg.me/), reads Rožaje's active cases and saves them to Firebase for the [covid-19-rozaje](https://github.com/ilhankalac/covid-19-rozaje) app.
 
