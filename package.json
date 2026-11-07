@@ -1,7 +1,7 @@
 {
-  "name": "covid-19-rozaje-scraper",
+  "name": "covid-19-montenegro-scraper",
   "version": "1.0.0",
-  "description": "Daily scraper for COVID-19 data in Rožaje, saved to Firebase.",
+  "description": "Daily scraper for COVID-19 data in Montenegrin cities, saved to Firebase.",
   "main": "index.js",
   "dependencies": {
     "firebase": "^8.2.3",
@@ -15,11 +15,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ilhankalac/covid-19-rozaje-scraper.git"
+    "url": "git+https://github.com/ilhankalac/covid-19-montenegro-scraper.git"
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ilhankalac/covid-19-rozaje-scraper/issues"
+    "url": "https://github.com/ilhankalac/covid-19-montenegro-scraper/issues"
   },
-  "homepage": "https://github.com/ilhankalac/covid-19-rozaje-scraper#readme"
+  "homepage": "https://github.com/ilhankalac/covid-19-montenegro-scraper#readme"
 }

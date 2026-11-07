@@ -1,15 +1,14 @@
-const CITY = 'Rožaje';
-
-/** Pulls the publish date and Rožaje's active cases out of a report page's text. */
-function parseReport(text) {
+/** Pulls the publish date and a city's active cases out of a report page's text. */
+function parseReport(text, city) {
   const date = text.split('Objavljeno:')[1]?.substring(0, 13).trim();
+  if (!date || !text.includes(city)) return null;
 
-  // The last "Rožaje" on the page is the table row; its first cells follow within ~31 chars.
-  const row = (CITY + text.split(CITY).pop().substring(0, 31))
+  // The last mention of the city on the page is its table row; its first cells follow within ~31 chars.
+  const row = (city + text.split(city).pop().substring(0, 31))
     .split('\n')
     .filter(cell => cell !== '' && cell !== '\t');
 
-  if (!date || row.length < 2) return null;
+  if (row.length < 2) return null;
   return { date, activeCases: row[1] };
 }
 
