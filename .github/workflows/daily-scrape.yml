@@ -1,8 +1,7 @@
 name: Daily scrape
 
+# The daily schedule is off: ijzcg.me no longer publishes reports.
 on:
-  schedule:
-    - cron: "0 15 * * *"
   workflow_dispatch:
 
 jobs:

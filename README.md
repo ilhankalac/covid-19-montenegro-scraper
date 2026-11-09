@@ -2,7 +2,7 @@
 
 Daily scraper for COVID-19 data in Montenegrin cities. It finds the latest report on [ijzcg.me](https://www.ijzcg.me/), reads the active cases for the city you pass in and saves them to Firebase. It feeds the [covid-19-rozaje](https://github.com/ilhankalac/covid-19-rozaje) app.
 
-Runs every day at 15:00 UTC with GitHub Actions, for Rožaje.
+Used to run every day with GitHub Actions for Rožaje. The schedule is off now that ijzcg.me no longer publishes reports; it can still be run by hand.
 
 ```bash
 npm install
